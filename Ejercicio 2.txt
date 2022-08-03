@@ -1,1 +1,2 @@
-Estoy probando 
+Las diferencias que yo noto con el paradigma orientado a objetos con procerudal ,son las ventajas eficiencias se puede encapsular con mayor facilidad, permite la herencia , es mas util para programar en la vida laborar .
+Pero las ventajas que tiene el procedural es mejor para programas chicos y usa menos espacio de memoria
