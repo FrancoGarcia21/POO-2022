@@ -1,0 +1,3 @@
+Las estructuras que hay son 
+selectivas
+interacion que entre ellas esta: while - for 
