@@ -1,2 +1,2 @@
-module Ejercicio10 {
+module Ejercicio_10 {
 }
