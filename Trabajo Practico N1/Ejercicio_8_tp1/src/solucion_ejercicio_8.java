@@ -1,6 +1,5 @@
-package Solucion_ejercicio10;
 
-public class solucion10 {
+public class solucion_ejercicio_8 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
