@@ -5,14 +5,17 @@ public class solucion_ejercicio_9 {
 	public static void main(String[] args) {
 		Scanner in = new Scanner (System.in);
 		System.out.println(" Ingrese una palabra");
-		String cade1 = in.next();
+		String palabra1 = in.nextLine();
 		System.out.println(" Ingresa otra palabra ");
-		String cade2 = in.next();
+		String palabra2 = in.nextLine();
+		Boolean igualdad = palabra1 == palabra2;
+		System.out.println("Comparada con == "+igualdad);
+		System.out.println("Comparado con .equals():"+ palabra1.equals(palabra2));
 		
-		if (cade1.equals(cade2)){
+		
 			
 		}
-
 	}
 
-}
+
+

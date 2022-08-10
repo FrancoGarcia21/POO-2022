@@ -22,7 +22,7 @@ public class solucion_ejercicio_8 {
 //	switch (numero) {
 //	case numero > aleatorio : System.out.println("El numero ingreso que fue "+numero+ " es mayor que el numero aleatorio generado "+aleatorio); break;
 //	case numero >= aleatorio: System.out.println("El numero que ingreso fue " +numero+ " es menor o igual al numero que se genero aleatoriamente"+aleatorio); break;
-//	}
+//	}2
 	
 	}
 }
