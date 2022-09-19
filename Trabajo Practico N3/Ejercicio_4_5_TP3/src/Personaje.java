@@ -3,6 +3,12 @@ import java.util.Random;
 public abstract class Personaje {
 	Integer vida, nivelAtaque , nivelDefensa;
 
+	/*public Personaje(Integer nivelAtaque, Integer nivelDefensa) {
+		super();
+		this.nivelAtaque = nivelAtaque;
+		this.nivelDefensa = nivelDefensa;
+	}*/
+
 	public Integer getVida() {
 		return vida;
 	}
