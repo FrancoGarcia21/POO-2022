@@ -10,7 +10,8 @@ public class Liga extends Competicion{
 	public void armarFixture() {
 		System.out.println("Fecha 1");
 		for(Integer i=0 ; i< this.participantes.size()-1; i++) {
-			System.out.println(this.participantes.get(i)+" VS "+this.participantes.get(i+1));
+			System.out.println("Partido " + i + ":");
+			System.out.println(this.participantes.get(i).getNombreParticipante()+" VS "+this.participantes.get(i+1).getNombreParticipante());
 		}
 		
 //		for(Participante nombre : participantes) {

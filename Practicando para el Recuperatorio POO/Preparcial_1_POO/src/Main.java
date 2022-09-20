@@ -11,12 +11,15 @@ public class Main {
 			listaParticipantes.add(participan);			
 		}
       Collections.shuffle(listaParticipantes);// en este punto mezclo la lista de los participantes acordate bien de esto
-//	for(Participante nombre : listaParticipantes) {
-//		System.out.println(nombre.toString());
-//	}
-      Liga compeLiga = new Liga("Copa Libertadores", listaParticipantes);
-      compeLiga.armarFixture();
-	}
-	 
+//      Liga compeLiga = new Liga("Copa Libertadores", listaParticipantes);
+//      compeLiga.armarFixture();
+//      
+//      Grupos grupos = new Grupos("Champion Leageu",listaParticipantes);
+//      grupos.armarFixture();
 
-}
+       Eliminacion eliminacion = new Eliminacion ("Judo competicion", listaParticipantes);
+       eliminacion.armarFixture();
+      
+	}
+	}
+
