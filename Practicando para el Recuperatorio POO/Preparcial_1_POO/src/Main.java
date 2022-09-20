@@ -14,13 +14,13 @@ public class Main {
 			listaParticipantes.add(participan);
 					
 		}
-	Collections.shuffle(listaParticipantes);// en este punto mezclo la lista de los participantes acordate bien de esto
-	for(Participante nombre : listaParticipantes) {
-		System.out.println(nombre.toString());
-	}
-	
+      Collections.shuffle(listaParticipantes);// en este punto mezclo la lista de los participantes acordate bien de esto
+//	for(Participante nombre : listaParticipantes) {
+//		System.out.println(nombre.toString());
+//	}
+      Liga compeLiga = new Liga("Copa Libertadores",listaParticipantes);
+      compeLiga.armarFixture();
 	}
 	 
-	
 
 }
