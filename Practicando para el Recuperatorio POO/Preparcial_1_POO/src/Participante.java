@@ -30,7 +30,7 @@ public class Participante {
 
 	@Override
 	public String toString() {
-		return "Paticipante=" + numeroParticipante + ", nombre del Participante " + nombreParticipante
+		return "Paticipante N°" + numeroParticipante +" "+ nombreParticipante
 			;
 	}
 	

@@ -8,13 +8,9 @@ public class Liga extends Competicion{
 
 	@Override
 	public void armarFixture() {
-		// TODO Auto-generated method stub
 		System.out.println("Fecha 1");
-		
-		
-		for(Integer i=1 ; i< participantes.size(); i++) {
-			System.out.println("Fecha 1");
-			System.out.println(participantes.indexOf(i));
+		for(Integer i=0 ; i< this.participantes.size()-1; i++) {
+			System.out.println(this.participantes.get(i)+" VS "+this.participantes.get(i+1));
 		}
 		
 //		for(Participante nombre : participantes) {

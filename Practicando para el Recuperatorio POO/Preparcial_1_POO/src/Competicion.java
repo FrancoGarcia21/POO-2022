@@ -6,6 +6,7 @@ public abstract class Competicion {
 	protected ArrayList<Participante> participantes = new ArrayList<Participante>();//especifico que tinee un atributo que es un arraylsit
 	//que tiene participantes siempre el array especificalo en la clase padre NO TE OLVIDES
 	// puse protected para que el array pueda heredarlo en las clases hijos
+	
 	public Competicion(String nombreCompeticion, ArrayList<Participante> participantes) {
 		super();
 		this.nombreCompeticion = nombreCompeticion;
