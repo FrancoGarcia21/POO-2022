@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Grupos extends Competicion {
 
 	public Grupos(String nombreCompeticion, ArrayList<Participante> participantes) {
-		super(nombreCompeticion, participantes);
+		super(nombreCompeticion, participantes); // bien!
 		// TODO Auto-generated constructor stub
 	}
 
