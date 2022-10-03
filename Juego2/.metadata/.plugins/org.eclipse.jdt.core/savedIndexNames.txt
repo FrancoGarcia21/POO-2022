@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\franc\Desktop\POO-2022\POO-2022\Juego2\.metadata\.plugins\org.eclipse.jdt.core
